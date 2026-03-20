@@ -1,0 +1,57 @@
+{
+  "name": "NTSA Drive Ready",
+  "short_name": "Drive Ready",
+  "description": "Kenya NTSA driving theory, road signs, quiz & model town simulator. Study offline, anywhere, anytime.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080b10",
+  "theme_color": "#f5c518",
+  "categories": ["education", "productivity"],
+  "lang": "en-KE",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Take Quiz",
+      "short_name": "Quiz",
+      "description": "Start the driving theory quiz",
+      "url": "./index.html#quiz",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Road Signs",
+      "short_name": "Signs",
+      "description": "Study all road signs",
+      "url": "./index.html#signs",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "General Q&A",
+      "short_name": "General",
+      "description": "Study general theory questions",
+      "url": "./index.html#general",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Simulator",
+      "short_name": "Simulator",
+      "description": "Model Town driving simulator",
+      "url": "./index.html#simulator",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
